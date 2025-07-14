@@ -114,10 +114,8 @@ TypeScript types: For React & DOM
 🔧 Installation & Setup
 Clone the Repository
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/your-blog-app.git
+
+
 cd frontend
 Install Dependencies
 

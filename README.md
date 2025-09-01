@@ -1,5 +1,5 @@
  Folder Structure
-
+~~~
 Edit
 frontend/
 ├── public/                # Static assets
@@ -17,9 +17,9 @@ frontend/
 ├── tailwind.config.cjs    # TailwindCSS configuration
 ├── vite.config.js         # Vite config with plugins
 └── package.json
-
+~~~
 📥 Dependencies
-
+~~~
 "dependencies": {
   "@radix-ui/react-avatar": "^1.1.10",
   "@radix-ui/react-dialog": "^1.1.14",
@@ -45,13 +45,13 @@ frontend/
   "tailwind-merge": "^3.3.1",
   "tailwindcss": "^4.1.11"
 }
-
+~~~
 
 
 
 
 🛠️ Dev Dependencies
-
+~~~
 "devDependencies": {
   "@eslint/js": "^9.29.0",
   "@types/react": "^19.1.8",
@@ -63,12 +63,13 @@ frontend/
   "globals": "^16.2.0",
   "vite": "^7.0.0"
 }
-
+~~~
 
 
 🚀 Live Demo
-📡 Hosted on: https://mern-blog-ha28.onrender.com
-
+~~~
+📡 Hosted on: [Link](https://mern-blog-ha28.onrender.com)
+~~~
 
 
 
@@ -76,6 +77,7 @@ frontend/
 
 ⚙️ Tech Stack & Dependencies
 ✅ Frontend Libraries
+~~~
 React 19: UI library
 
 Redux Toolkit: Global state management
@@ -101,8 +103,10 @@ React Redux: Hooks for Redux
 Redux Persist: Persist Redux store
 
 Class Variance Authority / clsx / tailwind-merge: Tailwind class handling
+~~~
 
 🛠️ Dev Tools
+~~~
 Vite 7: Next-gen frontend build tool
 
 ESLint: Linting for clean code
@@ -110,31 +114,37 @@ ESLint: Linting for clean code
 @vitejs/plugin-react: React support in Vite
 
 TypeScript types: For React & DOM
+~~~
 
 🔧 Installation & Setup
 Clone the Repository
 
-
-
+~~~
 cd frontend
+~~~
 Install Dependencies
 
 
-
+~~~
 npm install
+~~~
 Start the Development Server
 
-
+~~~
 npm run dev
+~~~
 Build for Production
 
-
+~~~
 npm run build
+~~~
 Preview Production Build
 
-
+~~~
 npm run preview
+~~~
 📌 Features
+~~~
 ✅ Blog Creation & Editing
 
 ✅ Rich Text Editing using Jodit
@@ -150,11 +160,12 @@ npm run preview
 ✅ Modern UI/UX with Radix & Tailwind
 
 ✅ Redux Persist for session state
-
+~~~
 
 
 
 📁 Backend Folder Structure
+~~~
 bash
 Copy
 Edit
@@ -180,12 +191,12 @@ backend/
 ├── app.js                      # Express app setup
 ├── server.js                   # Starts server (listens on port)
 └── package.json
-
+~~~
 
 
 
 ✅ Example .env file
-
+~~~
 PORT=5000
 MONGO_URI=mongodb+srv://your_db
 JWT_SECRET=yourSecretKey
@@ -194,9 +205,10 @@ CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 EMAIL_API_KEY=your_smtp_key_or_resend_key
-
+~~~
 
  ***package.json Dependencies
+ ~~~
 json
 Copy
 Edit
@@ -216,3 +228,4 @@ Edit
 "devDependencies": {
   "nodemon": "^3.1.0"
 }
+~~~
